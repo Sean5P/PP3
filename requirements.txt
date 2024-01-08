@@ -1,1 +1,1 @@
-# Your requirements go here
+pip3 freeze > requirements.txt 
