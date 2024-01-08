@@ -92,7 +92,7 @@ def get_last_5_entries_sales():
     the last 5 entries for each item and returns data
     as a list of lists
     """
-sales = SHEET.worksheet("sales")
+    sales = SHEET.worksheet("sales")
 
     columns = []
     for ind in range(1, 7):
